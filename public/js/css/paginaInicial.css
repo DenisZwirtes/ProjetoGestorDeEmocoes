@@ -1,0 +1,115 @@
+.fundoPaginaInicial {
+    font-family: 'Arial', sans-serif;
+    background-color: #3d3d3d;
+    color: #f6f8fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.h1PaginaInicial {
+    color: #06d183;
+}
+.h3PaginaInicial{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.paragrafoPaginaInicial {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+
+.menu-icon {
+    cursor: pointer;
+    font-size: 30px; /* Ajuste o tamanho do ícone conforme necessário */
+    color: rgb(245, 240, 240); /* Cor do ícone */
+   
+}
+
+
+#menuContainer {
+    position: absolute; /* Define o posicionamento absoluto */
+    top: 30px; /* Distância do topo da página */
+    left: 30px; /* Distância da borda esquerda da página */
+}
+
+#menuOptions {
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    background-color: #474444; /* Cor de fundo do menu */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+    padding: 30px;
+    z-index: 1;
+}
+
+.menuOption {
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+    width: 70px;
+}
+
+.menuOption:hover {
+    background-color: #06d183; /* Cor ao passar o mouse sobre as opções do menu */
+}
+
+#fotoPerfil {
+    position: absolute; /* Define o posicionamento absoluto */
+    top: 30px; /* Distância do topo da página */
+    right: 30px; /* Distância da borda esquerda da página */
+}
+
+.avatar {
+    border-radius: 50px;
+    cursor: pointer;
+    width: 60px;
+}
+
+.mostrarAlterarFoto {
+    display: block;
+}
+
+.ocultarAlterarFoto {
+    display: none;
+}
+
+.logout-link {
+    text-decoration: none;
+    transition: background-color 0.3s ease; 
+    color: inherit;
+}
+
+.logout-link:hover {
+    background-color: #06d183; 
+}
+
+.cardOpcoes {
+    background-color: #3d3d3d;
+}
+
+.textoOpcoes {
+    color: white;
+}
+
+.textoGerenciar {
+    color: white;
+    font-size: 22px;
+}
+
+.star {
+    cursor: pointer;
+}
+
+.star:hover {
+    background-color: #06d183; 
+}
+

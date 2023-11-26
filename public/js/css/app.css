@@ -1,0 +1,30 @@
+
+.bg-custom {
+    background-color: rgb(46, 46, 46); 
+    color: white; 
+}
+
+.botaoAuthLogin {
+    cursor: pointer;
+    background-color: rgb(46, 46, 46);
+}
+
+.botaoAuthLogin:hover {
+    background-color:#09915d;  
+}
+
+.fundoAuthLogin {
+    background-image: url('/img/smileVerde.png');
+    background-size: contain; /* Ajuste a propriedade conforme necessário */
+    background-repeat: repeat;
+    background-position: center;
+    /* Adicione outras propriedades de estilo conforme necessário */
+}
+
+.fundoCard {
+    background-color:#666464;
+}
+
+.labelQualSeuNome {
+    color:white;
+}

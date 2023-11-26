@@ -1,0 +1,43 @@
+
+.bg-custom {
+    background-color: rgb(46, 46, 46); 
+    color: white; 
+}
+
+.botaoAuthLogin {
+    cursor: pointer;
+    background-color: rgb(46, 46, 46);
+}
+
+.botaoAuthLogin:hover {
+    background-color:#09915d;  
+}
+
+.fundoAuthLogin {
+    background-image: url('/img/smileVerde.png');
+    background-size: contain; /* Ajuste a propriedade conforme necessário */
+    background-repeat: repeat;
+    background-position: center;
+    /* Adicione outras propriedades de estilo conforme necessário */
+}
+
+.fundoCard {
+    background-color:#666464;
+}
+
+.labelQualSeuNome {
+    color:white;
+}
+
+/* Estilo para a classe que garante que a altura da div seja 100% da altura do contêiner pai */
+.divCardBodyTamanhosIguais {
+    height: 100%; /* A altura da div será 100% da altura do contêiner pai */
+    display: flex; /* Aplica o modelo de layout flexível para os filhos da div */
+    flex-direction: column; /* Configura a direção principal para coluna, para empilhar os filhos verticalmente */
+    justify-content: space-between; /* Distribui o espaço verticalmente entre os filhos, colocando um espaço igual acima e abaixo deles */
+}
+
+
+.tamanhoFonteClassificar {
+font-size: 80%;
+}
