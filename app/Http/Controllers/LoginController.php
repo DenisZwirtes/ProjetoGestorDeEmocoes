@@ -34,7 +34,6 @@ class LoginController extends BaseController
     {
         Auth::logout();
 
-        // Limpa todos os dados de sessão
         Session::flush();
 
         return redirect('auth-login'); 
@@ -45,7 +44,7 @@ class LoginController extends BaseController
     {
         $nome = Session::get('nome');
         $nomeArquivo = Session::get('nomeArquivoFoto');
-        $caminhoFoto = 'img/' . $nomeArquivo;
+        $caminhoFoto = FotoController::gerarCaminhoParaFoto($nomeArquivo);
         $mensagem = $request->query('mensagem');
       
         if (!$mensagem){
